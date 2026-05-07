@@ -1,0 +1,11 @@
+# 基于LLVM风格的配置
+BasedOnStyle: LLVM
+IndentWidth: 4       # 缩进宽度为4个空格
+TabWidth: 4          # 制表符宽度为4（与空格缩进一致）
+UseTab: Never        # 从不使用制表符，只用空格
+ColumnLimit: 120     # 每行最大字符数
+AllowShortFunctionsOnASingleLine: true  # 允许短函数在单行
+BreakBeforeBraces: Attach
+BraceWrapping:
+  AfterControlStatement: true
+  AfterFunction: true
