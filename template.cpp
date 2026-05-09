@@ -10,9 +10,8 @@ using ll = i64;
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr), cout.tie(nullptr);
-    ll t;
-    cin >> t;
-    while (t--) {
-    }
+    ll a;
+    cin>>a;
+    cout<<a;
     return 0;
 }
